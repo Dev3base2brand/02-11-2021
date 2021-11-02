@@ -1,0 +1,19 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 53" width="75" height="53">
+	<title>Group 2352-svg</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="37.279" y1="0" x2="37.279" y2="52.75">
+			<stop offset="0" stop-color="#fc8f30"  />
+			<stop offset="0.397" stop-color="#e2604a"  />
+			<stop offset="1" stop-color="#bf074c"  />
+		</linearGradient>
+		<image width="25" height="17" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNC40NjYiIGhlaWdodD0iMTYuMTg0IiB2aWV3Qm94PSIwIDAgMjQuNDY2IDE2LjE4NCI+CiAgPHBhdGggaWQ9IlBhdGhfMjI1MyIgZGF0YS1uYW1lPSJQYXRoIDIyNTMiIGQ9Ik02MTY2LjY4OCw0OTEuMTE3bC0xLjI2NSwxLjI2NS02LjgyMyw2LjgzMS0xLjc4OC0xLjgsNS4wMzUtNS4wMzVoLTE5LjYyNXYtMi41M2gxOS42MjVsLTUuMDM1LTUuMDI2LDEuNzg4LTEuOFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02MTQyLjIyMyAtNDgzLjAzKSIgZmlsbD0iI2U0NTM1OCIvPgo8L3N2Zz4K"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+		.shp1 { fill: #ffffff } 
+	</style>
+	<path id="Path_16" class="shp0" d="M74.56 0L0 0L19.34 52.75L74.56 52.75L74.56 0Z" />
+	<path id="Path_17" class="shp1" d="M70.04 3.52L5.15 3.52L21.85 50.12L70.04 50.12L70.04 3.52Z" />
+	<use id="Path 2253" href="#img1" transform="matrix(1,0,0,1,28,18)"/>
+</svg>

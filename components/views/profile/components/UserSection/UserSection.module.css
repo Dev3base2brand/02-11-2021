@@ -1,0 +1,121 @@
+.user_section {
+    width: 1120px;
+    height: 314px;
+    max-width: 100%;
+    margin: auto;
+    background: transparent linear-gradient(107deg, #FFFFFF82 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 15px 18px 59px #0000000D;
+    border: 1px solid #FFFFFF;
+    border-radius: 44px;
+    opacity: 1;
+    backdrop-filter: blur(21px);
+    margin-top: -30px;
+    padding: 16px;
+}
+.user_img{
+    position: relative;
+}
+.us_img{
+        position: absolute;
+    left: 101px;
+    top: 42px;
+    background: transparent linear-gradient(
+137deg, #FFFFFF82 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 15px 18px 59px #0000000d;
+    border: 2px solid #FFFFFF;
+    border-radius: 148px;
+    padding: 8px;
+}
+.user_inner{
+    display: flex;
+}
+.user_content{
+    padding:36px 0 0 156px;
+}
+.user_title span {
+    font: normal normal bold 40px/46px Ubuntu;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-right: 13px;
+}
+.user_title img{
+    position: relative;
+    top: 2px;    
+}
+.follw_con{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+        margin-top: 22px;
+}
+.follw_con h3{
+    color: #2E2E2E;
+    font-size: 28px;
+    line-height: 22px;
+    font-family: 'Ubuntu';
+    margin: 12px 0;
+}
+.follw_con span {
+    font-family: Ubuntu;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #A1A1A1;
+}
+.follwers{
+    position: relative;
+    margin-right: 44px;
+}
+.follwers:before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 43px;
+    background: #E0E0E0;
+    right: -24px;
+    top: 18px;
+}
+
+.btn_profile button.edit_btn{
+    clip-path: polygon(11% 0%, 100% 0%, 90% 100%, 0% 100%);
+    font-size: 18px;
+    font-weight: 600;
+    width: 134px;
+    height: 44px;
+    background: #DD272D ;
+    color: #fff;
+    letter-spacing: 0.4px; 
+    cursor: pointer;
+}
+.btn_profile{
+    padding-top: 14px;
+    padding-left: 28px;
+    display: flex;
+}
+
+.edit_btn_s, .edit_btn_w{
+    background: transparent;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+.conten_text{
+ color: #A1A1A1;
+    font-weight: 100;
+    max-width: 100%;
+    width: 668px;
+    margin-top: 26px;
+    letter-spacing: 0;
+    word-spacing: 1px;
+    font-size: 20px;
+}
+
+.edit_btn_w .wallet_hover{
+    position: relative;
+    left: -63px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.edit_btn_w .wallet_hover:hover{
+    opacity: 1;
+}

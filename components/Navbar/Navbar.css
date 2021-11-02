@@ -1,0 +1,555 @@
+.nav-links {
+  font-size: 1rem;
+}
+.navbar-svgs {
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+}
+
+.nav-items:hover,
+.nav-links:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.nav-items {
+  padding: 0 5px;
+}
+.navbar-brand {
+  position: relative;
+}
+
+.connect-link {
+  position: relative;
+  display: inline-block;
+}
+.navbar-nav {
+  display: contents !important;
+}
+
+#nav-item-collection {
+  float: right;
+  width: 65%;
+  text-align: right;
+}
+
+#basic-navbar-nav {
+  max-width: 1630px;
+  margin: 0 auto;
+  display: flex;
+  display: -ms-flexbox;
+  align-items: center;
+}
+
+#connect-wallet {
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  font-weight: bold;
+  color: white;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+#marketplace-svg {
+  overflow: hidden;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.nav-items:hover #marketplace-svg {
+  transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+}
+
+#connect-wallet-svg {
+  overflow: hidden;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  vertical-align: middle;
+}
+.connect-link:hover #connect-wallet-svg {
+  transform: skew(30deg);
+  -webkit-transform: skew(30deg);
+  fill: url(#MyGradient);
+}
+.connect-link:hover #connect-wallet-path {
+  fill: url(#MyGradient);
+}
+
+#explore-svg {
+  overflow: hidden;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.nav-items:hover #explore-svg {
+  transform: rotate(100deg);
+  -webkit-transform: rotate(100deg);
+}
+
+#auction-svg {
+  position: absolute;
+  overflow: hidden;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.nav-items:hover #auction-svg {
+  transform: rotate(-50deg);
+  -webkit-transform: rotate(-50deg);
+}
+
+#Rectangle_42,
+#Rectangle_43 {
+  overflow: hidden;
+  transition: transform 0.4s ease-in;
+}
+.nav-items:hover #Rectangle_42 {
+  transform: translate(2011px, 998px);
+  -webkit-transform: translate(2011px, 998px);
+}
+.nav-items:hover #Rectangle_42 rect {
+  height: 25.5px;
+}
+
+.nav-items:hover #Rectangle_43 {
+  transform: translate(1991px, 1013px);
+  -webkit-transform: translate(1991px, 1013px);
+}
+.nav-items:hover #Rectangle_43 rect {
+  transform: translateY(1px);
+  -webkit-transform: translateY(1px);
+}
+
+#Group_12647 {
+  overflow: hidden;
+  transition: transform 0.2s ease-in;
+}
+.nav-items:hover #activity-svg #Group_12647 {
+  transform: translate(5167.04px, -168.349px);
+  -webkit-transform: translate(5167.04px, -168.349px);
+}
+
+#nav-form {
+  display: inline-block;
+  position: relative;
+  margin-left: 20px;
+  width: 100%;
+  max-width: 270px;
+}
+
+#nav-form input {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  height: 2.5rem;
+  padding-left: 2rem;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  width: 100%;
+}
+
+#nav-form input:hover {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+
+  -webkit-box-shadow: 0px 0px 4px red;
+  -moz-box-shadow: 0px 0px 4px red;
+  box-shadow: 0px 0px 4px red;
+}
+
+#nav-form:hover #Path_2054,
+#nav-form:hover #Path_2055 {
+  fill: rgb(216, 5, 5);
+}
+
+#nav-form:active #Path_2054,
+#nav-form:active #Path_2055 {
+  fill: rgb(216, 5, 5);
+}
+
+#nav-form input:hover {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+
+  /* make it glow! */
+  -webkit-box-shadow: 0px 0px 4px red;
+  -moz-box-shadow: 0px 0px 4px red;
+  box-shadow: 0px 0px 4px red;
+}
+
+#nav-form input:active {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+
+  /* make it glow! */
+  -webkit-box-shadow: 0px 0px 4px red;
+  -moz-box-shadow: 0px 0px 4px red;
+  box-shadow: 0px 0px 4px red;
+}
+
+#nav-form svg {
+  position: absolute;
+  padding: 10px 12px;
+  pointer-events: none;
+  width: 40px;
+  top: -0.3rem;
+  height: 50px;
+}
+
+.navbar {
+  padding: 15px 5%;
+}
+
+.nav-item {
+  margin-right: 2%;
+  margin-left: 2%;
+  top: 1.9rem;
+  position: relative;
+  vertical-align: top;
+  display: inline-flex;
+  font-family: "Ubuntu";
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {
+    position: relative;
+  }
+
+  .navbar.responsive .nav-items {
+    float: none;
+    display: block;
+    font-family: "Ubuntu";
+    padding: 0.8rem;
+    background-color: white;
+    text-align: center;
+  }
+}
+#search,
+#search_11_ {
+  float: left !important;
+}
+@media screen and (min-width: 1500px) {
+  #nav-item-collection a.nav-links:not(:last-child) {
+      margin-left: 28px;
+  }
+}
+
+@media screen and (min-width: 1364px) {
+  #nav-item-collection {
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+ 
+  }
+  #nav-item-collection a.nav-links:not(:last-child) {
+      margin-left: 11px;
+  }
+}
+
+@media (max-width: 1499px) {
+  #nav-form {
+    max-width: 215px;
+  }
+}
+@media screen and (max-width: 1364px) {
+  .navbar .nav-items,
+  .nav-item,
+  #search,
+  #search_11_,
+  .collapsed,
+  #connect-wallet-svg {
+    display: none;
+  }
+  .navbar .icon {
+    position: absolute;
+    right: 0;
+
+  }
+  #logo {
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 4rem;
+    font-size: 1.5rem;
+  }
+
+  #brand {
+    width: 1%;
+    display: inline-block;
+ 
+  }
+
+  #search-mobile {
+    position: absolute;
+    z-index: 5050;
+    top: 0.6rem;
+    border: none;
+    width: calc(91vw - 16rem);
+    padding-left: 10px;
+    outline: none;
+    display: none;
+    transform: translateX(98px);
+  }
+  #nav-item-collection {
+    float: unset;
+    position: absolute;
+    top: 3rem;
+    display: block;
+    left: 0vw;
+    width: 100% !important;
+  }
+  .nav-items div {
+    position: relative;
+    display: inline-block;
+    min-width: 6rem;
+  }
+}
+
+@media screen and (min-width: 1365px) {
+  .navbar .icon {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1364px) {
+  #search-mobile {
+    position: absolute;
+    z-index: 5050;
+    top: 0.6rem;
+    border: none;
+    width: 16.5vw;
+    padding-left: 10px;
+    outline: none;
+    display: none;
+    right: 15rem;
+  }
+  .individual-svg {
+    position: absolute;
+    right: 140px !important;
+  }
+  /* #Group_21113 {
+    position: relative;
+    transform: translateX(calc(100% - 12vw)) !important;
+  } */
+}
+
+#wallet {
+  margin-left: -8.2rem;
+}
+.mobile-svgs {
+  margin-left: 0.4rem;
+
+  position: relative;
+  z-index: 1;
+}
+.icon {
+  position: relative;
+  display: inline-block;
+}
+
+#brand {
+  display: inline-block;
+  width: 193px;
+}
+#brand img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+.nav-items div {
+  position: relative;
+  display: inline-block;
+}
+
+.button {
+  display: inline-block;
+  margin: 4px 2px;
+  background-color: #444;
+  font-size: 14px;
+  padding-left: 32px;
+  padding-right: 32px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.button:hover {
+  transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  background-color: white;
+  color: black;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+  margin: 4px 2px;
+  height: 50px;
+  width: 50px;
+  left: 50px;
+  vertical-align: bottom;
+}
+
+.mglass {
+  display: inline-block;
+  pointer-events: none;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+}
+
+.searchbutton {
+  position: absolute;
+  font-size: 22px;
+  width: 92%;
+  left: 16rem;
+  top: 1.2rem;
+  height: 92%;
+  margin: 0;
+  border-radius: 98%;
+  padding: 0;
+}
+
+.search:focus + .searchbutton {
+  transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  background-color: white;
+  color: black;
+}
+
+.individual-svg {
+
+  position: absolute;
+
+}
+
+.width1 {
+  -webkit-transition: width 0.2s;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.search:focus {
+  width: 100px; /* Bar width+1px */
+  padding: 0 16px 0 0;
+}
+
+.expandright {
+  left: auto;
+  left: 5px; /* Button width-1px */
+}
+
+.expandright:focus {
+  padding: 0 0 0 16px;
+}
+
+.responsive {
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.navbar-main{
+  border-bottom: 1px solid #d2d2d2;
+  position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+    top: 0;
+}
+@media screen and (max-width: 1364px) {
+  
+  .responsive  div#nav-item-collection {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    top: 76px;
+    background-color: #fff;
+}
+
+.responsive div#nav-item-collection .nav-items {
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+}
+.connect-link {
+  display: none;
+}
+.responsive div#nav-item-collection .connect-link {
+  display: block;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.responsive div#nav-item-collection .connect-link svg#connect-wallet-svg {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+}
+@media screen and (max-width: 992px) {
+  .responsive  div#nav-item-collection {
+    top: 62px;
+}
+.individual-svg {
+  position: absolute;
+  right: 138px;
+  width: auto;
+}
+#Group_21113 {
+  position: relative;
+  transform: none;
+}
+}
+@media screen and (max-width: 767px) {
+  .responsive  div#nav-item-collection {
+    top: 50px;
+}
+#brand svg {
+  display: inline-block;
+  width: 140px;
+  height: auto;
+  padding-top: 12px;
+}
+.navbar {
+  padding: 15px;
+}
+#brand {
+  width: 100px;
+}
+#wallet {
+  margin-left: -5.5rem;
+}
+.individual-svg {
+  right: 94px;
+  
+}
+.individual-svg, .mobile-svgs {
+  width: 32px;
+}
+}

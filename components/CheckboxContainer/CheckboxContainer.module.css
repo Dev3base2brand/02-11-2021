@@ -1,0 +1,66 @@
+.filterboxlist{
+    margin-bottom: 15px;
+}
+.filterboxlist:last-child{
+    margin-bottom: 0px; 
+}
+.filterboxlist label{
+    display: flex;
+    align-items: center;
+    color: #2E2E2E;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+}
+.filterboxlist label img{
+    margin-right: 15px;
+    max-width: 24px;
+    max-height: 24px;
+} 
+.filterboxlist label input[type="checkbox"]{
+    position: absolute;
+    right: 20px;
+    right: 0;
+    opacity: 0;
+}
+.filterboxlist label input[type="checkbox"]:checked + .checkbox:before,
+.filterboxlist label input[type="checkbox"]:checked + .checkbox:after{
+    opacity: 1;
+}
+.filterboxlist label .checkbox{
+    position: absolute;
+    right: 0;
+    border: 1px solid #A1A1A1;
+    border-radius: 3px;
+    display: block;
+    width: 21px;
+    height: 21px;
+}
+
+.filterboxlist label .checkbox::before {
+    position: absolute;
+    left: -2px;
+    top: 9px;
+    height: 5px;
+    width: 2px;
+    background-color: #A1A1A1;
+    content: "";
+    transform: translateX(10px) rotate( 
+-45deg);
+    transform-origin: left bottom;
+    opacity: 0;
+}
+
+.filterboxlist label .checkbox::after {
+    position: absolute;
+    left: -1px;
+    bottom: 5px;
+    height: 2px;
+    width: 9px;
+    background-color: #A1A1A1;
+    content: "";
+    transform: translateX(10px) rotate( 
+-45deg);
+    transform-origin: left bottom;
+    opacity: 0;
+}

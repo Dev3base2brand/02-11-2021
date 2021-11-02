@@ -1,0 +1,22 @@
+.live_auction{
+    width: 100%;
+    /* padding-left: 311px; */
+    position: relative;
+}
+.auction_grid{
+   display: grid;
+    grid-column-gap: 45px;    
+    /* grid-template-columns: repeat(4,minmax(0,1fr)); */
+    grid-template-columns: repeat(auto-fill, minmax(336px, 1fr));
+    gap: 45px;
+    padding: 0 0 50px;
+}
+.auction_grid > div{
+    width: 100% !important;
+}
+.live_auction_contionar{
+    padding: 0 30px;
+    max-width: 1720px;
+    margin: 0 auto;
+    width: 100%;
+}

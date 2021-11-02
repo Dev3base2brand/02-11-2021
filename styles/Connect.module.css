@@ -1,0 +1,187 @@
+.image {
+  float: left;
+  position: relative;
+  text-align: center;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.component:hover {
+  border: 2px #c7c7c7 solid;
+}
+
+.noScroll {
+  overflow: hidden;
+  padding-bottom: 5vw;
+}
+.mainComponent {
+  position: relative;
+  text-align: center;
+  top: 25px;
+}
+
+.topBackground {
+  width: 100vw;
+}
+.topBackgroundMobile {
+  width: 100vw;
+  display: none;
+}
+.connectSvg {
+  display: none;
+}
+.addWallet {
+  display: none;
+}
+.topInformation {
+  position: absolute;
+  padding: 1rem;
+  color: white;
+}
+
+.backHome {
+  display: inline-block;
+  padding-left: 8px;
+  top: 3px;
+  position: relative;
+  font-family: 'Ubuntu';
+  font-size: 18px;
+}
+
+.topDescription {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 1501px) {
+  .topDescription {
+    font-size: 1.5rem;
+    width: 70%;
+  }
+  .topInformation h2 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .componentInformation {
+    position: relative;
+    top: 40px;
+  }
+  .topInformation {
+    left: 10%;
+    top: 6vw;
+  }
+  .backHome {
+    font-size: 28px !important;
+  }
+  .component {
+    width: calc(100% - 80vw);
+  }
+  .walletInformation {
+    width: 14rem !important;
+    position: absolute !important;
+  }
+}
+@media screen and (max-width: 749px) {
+  .topBackgroundMobile {
+    width: 100vw;
+    display: block;
+  }
+  .topBackground {
+    display: none;
+  }
+
+
+  .component {
+    padding: 1.5rem 1rem 0rem 1rem !important;
+    text-align: center !important;
+    width: 85% !important;
+    height: 140px;
+  }
+
+  .walletInformation {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    width: calc(100% - 91px) !important;
+    line-height: 1.2;
+  }
+  .walletTitle {
+    text-align: left;
+    color: #2e2e2e;
+    font-weight: bold;
+    font-size: 18px !important;
+  }
+  .connectSvg {
+    text-align: center;
+    fill: #dd272d;
+    position: absolute;
+    display: block !important;
+    margin: 0 auto;
+    transform: translateY(-35px);
+    right: calc(50% - 4.5rem);
+  }
+  .addWallet {
+    display: block;
+    position: relative;
+    font-weight: bold;
+    color: white;
+    margin: 0 auto;
+    top: -30px;
+    left: -5px;
+  }
+  .component:first-child {
+    margin-top: 1rem;
+  }
+  .topInformation {
+    top: 5rem;
+  }
+  .image {
+    width: 75px;
+    height: 75px;
+    top: -10px;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 1500px) {
+  .component {
+    padding: 1.5rem 1rem 1rem 1rem !important;
+    text-align: center !important;
+  }
+  .walletTitle {
+    font-size: 18px !important;
+    text-align: left;
+  }
+  .image {
+    height: 90px;
+    width: 90px;
+  }
+  .walletInformation {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width: calc(50% + 4.8rem) !important;
+    line-height: 1.2;
+  }
+}
+
+.component {
+  text-align: left;
+  border-radius: 5%;
+  padding: 2rem 1rem 2rem 1rem;
+  margin: 0rem 1rem 1rem 1rem;
+  vertical-align: bottom;
+  width: 25rem;
+  border: 1px #c7c7c7 solid;
+  display: inline-block;
+}
+.walletTitle {
+  font-size: 1.5rem;
+  color: #2e2e2e;
+  font-weight: bold;
+}
+.walletInformation {
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  color: #a1a1a1;
+  line-height: 1.2;
+}

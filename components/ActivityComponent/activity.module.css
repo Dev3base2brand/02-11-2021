@@ -1,0 +1,137 @@
+.container {
+  width: 90%;
+    /* max-width: 1360px; */
+    margin: 0 auto;
+    /* padding: 0 15px; */
+}
+
+.imageOne {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px !important;
+  border-radius: 50%;
+}
+
+.imageTwo {
+  height: 60px;
+  width: 70px;
+  border-radius: 5%;
+}
+
+.wrapper {
+  /* max-width: 1100px; */
+  width: 90%;
+  max-width: 1360px;
+  margin: auto;
+  justify-content: space-around;
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid rgb(206, 198, 198);
+  background-color: white;
+  margin-top: 5px;
+}
+.headWrapper {
+  /* max-width: 1100px; */
+  width: 90%;
+  max-width: 1360px;
+  margin: auto;
+  justify-content: space-around;
+  display: flex;
+  font-weight: bold !important;
+  /* border-radius: 8px; */
+  border-bottom: 1px solid rgb(206, 198, 198);
+  /* background-color: white; */
+  margin-top: 5px;
+}
+
+.wrapper:hover {
+  border: 1px solid orange;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+}
+
+.CardHead{
+  display: flex;
+  width: 16%;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardOne {
+  display: flex;
+  width: 16%;
+  justify-content: center;
+  align-items: center;
+}
+
+.anchor {
+  text-decoration: none;
+}
+
+.para {
+  font-size: 14px;
+}
+
+@media screen and (max-width:768px) {
+  .wrapper {
+      display: block;
+  }
+  .headWrapper {
+      display: block;
+  }
+  .CardOne {
+      width: 100%;
+      border-bottom: 1px solid grey;
+      display: block;
+      text-align: center;
+  }
+  .CardHead {
+      width: 100%;
+      border-bottom: 1px solid grey;
+      display: block;
+      text-align: center;
+  }
+}
+
+.quarter {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(45deg, #0000, var(--orange));
+  border-radius: 0 0 0 100px;
+}
+
+.circle {
+  position: absolute;
+  right: clamp(2em,5vw,8em);
+  top: 45%;
+  width: 90px;
+  height: 90px;
+  background-color: #0000;
+  border: double 10px var(--orange);
+  border-radius: 50px;
+}
+
+.circle2 {
+  position: absolute;
+  left: clamp(2em,5vw,8em);
+  top: 41vh;
+  width: 45px;
+  height: 45px;
+  background-color: #0000;
+  border: solid 8px var(--orange);
+  border-radius: 50px;
+}
+
+.engraved {
+  color: #fff;
+  background: -webkit-gradient(linear, right top, left top, from(var(--orange)), to(#fff));
+  background: linear-gradient(270deg, var(--orange), #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 2px #280f0f99;
+}
+
+.hr {border: 1px solid var(--gold)}

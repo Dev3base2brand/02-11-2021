@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="23" viewBox="0 0 14 23">
+  <g id="Group_12929" data-name="Group 12929" transform="translate(-0.203)">
+    <g id="Rectangle_224" data-name="Rectangle 224" transform="translate(2.703)" fill="#ffd8b3" stroke="#dd272d" stroke-linecap="round" stroke-width="1.5">
+      <rect width="9" height="10" rx="4.5" stroke="none"/>
+      <rect x="0.75" y="0.75" width="7.5" height="8.5" rx="3.75" fill="none"/>
+    </g>
+    <g id="Rectangle_225" data-name="Rectangle 225" transform="translate(0.203 9)" fill="none" stroke="#dd272d" stroke-linecap="round" stroke-width="1.5">
+      <path d="M6,0H8a6,6,0,0,1,6,6v4a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V6A6,6,0,0,1,6,0Z" stroke="none"/>
+      <path d="M6,.75H8A5.25,5.25,0,0,1,13.25,6v4A3.25,3.25,0,0,1,10,13.25H4A3.25,3.25,0,0,1,.75,10V6A5.25,5.25,0,0,1,6,.75Z" fill="none"/>
+    </g>
+    <path id="Path_2299" data-name="Path 2299" d="M10329.5-571v1.386" transform="translate(-10322.203 580.425)" fill="#ffd8b3" stroke="#dd272d" stroke-linecap="round" stroke-width="1.5"/>
+    <path id="Path_2300" data-name="Path 2300" d="M10329.5-571v7.291" transform="translate(-10322.203 582.982)" fill="#ffd8b3" stroke="#dd272d" stroke-linecap="round" stroke-width="1.5"/>
+  </g>
+</svg>

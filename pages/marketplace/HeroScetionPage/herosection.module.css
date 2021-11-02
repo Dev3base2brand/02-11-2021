@@ -1,0 +1,111 @@
+.container {
+    width: 100%;
+    background-color: #E04A4F;
+    height: 80vh;
+}
+
+.HeroSection {
+    /* max-width: 1200px; */
+    padding-top: 65px !important;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RightCol::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .RightCol {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.LeftCol {
+    width: 40%;
+    text-align: center;
+}
+
+.RightCol {
+    width: 40%;
+    height: 60vh;
+    top: 50;
+    overflow-y: scroll !important;
+    display: flex;
+    justify-content: space-around;
+}
+
+.h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.HeroButton {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.btn {
+    background-color: white;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    margin-left: 10px;
+}
+
+.card {
+    background-color: #EC805C;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 10px;
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.card2 {
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.img {
+    border-radius: 8px;
+}
+
+.Card2Content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        height: 100vh;
+    }
+    .HeroSection {
+        display: block;
+    }
+    .LeftCol {
+        width: 100%;
+    }
+    .RightCol {
+        width: 100%;
+        display: block;
+        margin-top: 20px;
+    }
+    .card {
+        margin: auto;
+        margin-top: 10px;
+    }
+    .card2 {
+        margin: auto;
+        margin-top: 10px;
+    }
+}

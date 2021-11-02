@@ -1,0 +1,21 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 63" width="89" height="63">
+	<title>Group 2354-svg</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="44.203" y1="0.452" x2="44.203" y2="63">
+			<stop offset="0" stop-color="#fc8f30"  />
+			<stop offset="0.397" stop-color="#e2604a"  />
+			<stop offset="1" stop-color="#bf074c"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+		.shp1 { fill: #ffffff } 
+		.shp2 { fill: #e45358 } 
+	</style>
+	<g id="Group_2352">
+		<path id="Path_16" class="shp0" d="M88.41 63L0 63L22.93 0.45L88.41 0.45L88.41 63Z" />
+		<path id="Path_17" class="shp1" d="M82.24 59.83L5.3 59.83L25.1 4.58L82.24 4.58L82.24 59.83Z" />
+		<path id="Path_2256" class="shp2" d="M59.56 31.55L57.98 33.13L49.46 41.66L47.22 39.42L53.51 33.13L29 33.13L29 29.97L53.51 29.97L47.22 23.7L49.45 21.45L59.56 31.55Z" />
+	</g>
+</svg>

@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 63" width="89" height="63">
+	<title>slickshape-left-svg</title>
+	<defs>
+		<image width="89" height="63" id="img1" href="data:image/svg+xml;base64,PHN2ZyBpZD0iR3JvdXBfMjM1MyIgZGF0YS1uYW1lPSJHcm91cCAyMzUzIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODguNDA2IiBoZWlnaHQ9IjYyLjU0OCIgdmlld0JveD0iMCAwIDg4LjQwNiA2Mi41NDgiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSItMC4xMzQiIHkxPSIxLjMyOSIgeDI9IjEuMDU3IiB5Mj0iLTAuMTI3IiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZjOGYzMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuMzk3IiBzdG9wLWNvbG9yPSIjZTI2MDRhIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2JmMDc0YyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgaWQ9Ikdyb3VwXzIzNTIiIGRhdGEtbmFtZT0iR3JvdXAgMjM1MiI+CiAgICA8cGF0aCBpZD0iUGF0aF8xNiIgZGF0YS1uYW1lPSJQYXRoIDE2IiBkPSJNMCwwSDg4LjQwNkw2NS40NzIsNjIuNTQ4SDBaIiBmaWxsPSJ1cmwoI2xpbmVhci1ncmFkaWVudCkiLz4KICAgIDxwYXRoIGlkPSJQYXRoXzE3IiBkYXRhLW5hbWU9IlBhdGggMTciIGQ9Ik0wLDBINzYuOTM5TDU3LjEzMiw1NS4yNTFIMFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQuMTcgNC4xNykiIGZpbGw9IiNmZmYiLz4KICA8L2c+Cjwvc3ZnPgo="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #e45358 } 
+	</style>
+	<use id="img1" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+	<g id="Group_2352">
+		<path id="Path_2256" class="shp0" d="M21 31.55L22.65 33.13L31.58 41.66L33.92 39.42L27.34 33.13L53 33.13L53 29.97L27.34 29.97L33.92 23.7L31.59 21.45L21 31.55Z" />
+	</g>
+</svg>

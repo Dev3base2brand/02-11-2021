@@ -1,0 +1,288 @@
+
+.button_white {
+  margin: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  width: 195px;
+  height: 50px;
+  position: relative;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transform: skewX(-10deg);
+  z-index: 1;
+}
+.button_white:after {
+  z-index: -1;
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* transform: none; */
+  background: transparent linear-gradient(111deg, #f3f0ee 0%, #f3eeed 40%, #ffffff 100%) 0% 0% no-repeat padding-box;
+  transition: 0.5s;
+  box-shadow: 0px 0px 1px #bf074b;
+}
+.button_white:hover:after{
+  border: 2px solid white;
+  transform: unset !important;
+  background: transparent linear-gradient(111deg, #FC8F30 0%, #E2604A 40%, #BF074C 100%) 0% 0% no-repeat padding-box;
+}
+
+.button_primary, .button_outline_sm {
+  margin: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  width: 195px;
+  height: 50px;
+  position: relative;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  z-index: 1;
+}
+.button_outline_sm {
+  width: 115px;
+  height: 35px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.button_outline_sm span {
+  display: flex;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  background-color: #fff;
+  transform: skewX(
+-15deg);
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  transition: 0.5s;
+  color: #333333;
+}
+.button_primary:after, .button_outline_sm:after {
+  z-index: -1;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: skewX(-15deg);
+  background: transparent linear-gradient(111deg, #FC8F30 0%, #E2604A 40%, #BF074C 100%) 0% 0% no-repeat padding-box;
+  transition: 0.5s;
+  box-shadow: 0px 0px 1px #bf074b;
+}
+.button_primary:hover:after, .button_outline_sm:hover:after, .button_outline_sm:hover{
+  transform: skewX(15deg);
+}
+.button_primary span img, .button_secondary span img{
+  width: 0;
+  transition: 0.1s;
+  display: inline-block;
+  vertical-align: middle;
+}
+.button_primary:hover span img, .button_secondary:hover span img{
+  width: 25px;
+  margin-left: 10px
+}
+.button_secondary {
+  margin: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  width: 179px;
+  height: 43px;
+  position: relative;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+.button_secondary:after {
+  z-index: -1;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: skewX(-15deg);
+  background:#DD272D;
+  transition: 0.5s;
+  box-shadow: 0px 0px 1px #bf074b;
+}
+.button_secondary:hover:after{
+  background: transparent linear-gradient(111deg, #FC8F30 0%, #E2604A 40%, #BF074C 100%) 0% 0% no-repeat padding-box;
+}
+.fixedbtn{
+  position: absolute;
+  bottom: -30px;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.button_transition_inline:hover:after{
+  transform: skewX(15deg);
+}
+.outline_rightskew, .outline_leftskew {
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 195px;
+  height: 53px;
+cursor: pointer;
+display: inline-block;
+font-weight: normal;
+margin: 0;
+}
+
+.outline_rightskew span, .outline_leftskew span {
+  position: absolute;
+  left: -20px;
+  right: 0;
+  margin: 0 auto;
+  color: #A1A1A1;
+  font-size: 18px;
+  z-index: 2;
+  background-color: #fff;
+  width: calc(100% - 27px);
+  height: calc(100% - 9px);
+  top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+
+}
+.outline_rightskew span img, .outline_leftskew span img{
+  width: 0;
+  transition: 0.1s;
+
+}
+.outline_rightskew:hover span img, .outline_leftskew:hover span img{
+  width: 20px;
+  margin-left: 10px
+}
+.outline_rightskew:hover span, .outline_leftskew:hover span{
+  background-color:transparent;
+  color: #fff;
+
+}
+.outline_rightskew:hover span:after, .outline_leftskew:hover span:after{
+opacity: 0;
+}
+.outline_rightskew span:after, .outline_leftskew span:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 42px solid #ffffff;
+  position: absolute;
+  right: -15px;
+  top: 0px;
+}
+
+
+.outline_rightskew:after, .outline_leftskew:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 95%;
+  top: 0;
+  left: -21px;
+  z-index: -1;
+  background: #FF0000;
+  transform-origin: bottom left;
+  -ms-transform: skew(-30deg, 0deg);
+  -webkit-transform: skew(-30deg, 0deg);
+  transform: skew(-18deg, 0deg);
+  background: transparent linear-gradient(111deg,  #BF074C 0%, #E2604A 40%, #FC8F30 100%) 0% 0% no-repeat padding-box;
+  z-index: 1;
+  transition: 0.1s;
+}
+.outline_leftskew{
+  transform: rotate(
+    180deg);
+    margin-top: -2px;
+    margin-left: -15px;
+}
+.outline_leftskew span{
+  transform: rotate(
+    180deg);
+}
+.outline_leftskew span:after{
+border-left: 0px solid transparent;
+border-right: 14px solid transparent;
+border-top: 44px solid #ffffff;
+left: -14px;
+top: 0px;
+transform: rotate(
+180deg);
+}
+.outline_leftskew:after {
+background: transparent linear-gradient(111deg,  #BF074C 0%, #E2604A 40%, #FC8F30 100%) 0% 0% no-repeat padding-box;
+}
+.outline_rightskew:hover:after{
+      opacity: 1;
+      background: transparent linear-gradient(111deg, #FC8F30 0%, #E2604A 40%, #BF074C 100%) 0% 0% no-repeat padding-box;
+  }
+
+  @media (max-width: 1364px) {
+    .fixedbtn{
+      bottom: -20px;
+      width: 125px;
+    font-size: 14px;
+    height: 35px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .outline_rightskew, .outline_leftskew {
+      width: 145px;
+      font-size: 12px;
+      height: 45px;
+    }
+    .outline_rightskew span, .outline_leftskew span {
+      font-size: 14px;
+      width: calc(100% - 26px);
+      height: calc(100% - 8px);
+    }
+    .outline_rightskew span:after{
+      border-left: 0px solid transparent;
+      border-right: 12px solid transparent;
+      border-top: 36px solid #ffffff;
+      right: -12px;
+    }
+    
+    .outline_leftskew span:after {
+      border-right: 12px solid transparent;
+      border-top: 37px solid #ffffff;
+      left: -12px;
+    }
+    .button_secondary, .button_primary{
+      height: 35px;
+      font-size: 14px;
+      width: 150px;
+    }
+    .button_outline_sm {
+      height: 35px;
+      font-size: 14px;
+  }
+  .fixedbtn{
+    bottom: -25px;
+  }
+  .button_primary:hover span img, .button_secondary:hover span img{
+    width: 15px;
+  }
+  }

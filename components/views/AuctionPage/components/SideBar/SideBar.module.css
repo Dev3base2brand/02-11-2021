@@ -1,0 +1,85 @@
+.sidebar{
+    width: 311px;
+    position:fixed;
+    left: 0;
+    top:74px;
+    border: 1px solid #EDEDED;  
+    background-color: #fff;
+    height: 100%;
+}
+.sidebar_toggle{
+    width: 31px;
+height: 31px;
+border: 1px solid #EDEDED;
+border-radius: 21px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #fff;
+position: absolute;
+top: 40px;
+right: -16px;
+cursor: pointer;
+}
+.sidebar .top_text{
+color: #A1A1A1;
+font-size: 14px;
+text-align: center;
+padding: 20px 10px;
+}
+.filterbox{
+    color: #000;
+    border-bottom: 1px solid #EDEDED;  
+    padding: 20px 30px;
+}
+.filterbox h5{
+color: #2E2E2E;
+font-size: 16px;
+opacity: 0.5;
+margin: 0 0 15px 0;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hidefilterbtn, .sidebar_togglemb{
+    display: none;
+}
+
+
+@media screen and (max-width: 1364px) {
+    .sidebar{
+        top:62px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .sidebar{
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 9;
+        top: auto;
+        bottom: -2px;
+        height: 100%;
+        border-radius: 30px 30px 0 0;
+        max-height: 80%;
+        overflow-y: auto;
+    }
+    .sidebar_toggle{
+        display: none;
+    }
+    .sidebar .top_text{
+        display: flex;
+        justify-content:space-between;
+        padding: 20px 30px;
+        border-bottom: 1px solid #EDEDED;  
+    }
+    .sidebar_togglemb{
+        cursor: pointer;
+        color:#1492E6;
+        display: block;
+    }
+}
+

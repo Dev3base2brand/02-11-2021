@@ -1,0 +1,12 @@
+<svg id="Group_20304" data-name="Group 20304" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <rect id="Rectangle_264" data-name="Rectangle 264" width="28" height="28" fill="#fff" opacity="0"/>
+  <g id="_10" data-name="10" transform="translate(0.933 0.933)">
+    <path id="Path_2467" data-name="Path 2467" d="M-7.521,16.19a1.565,1.565,0,0,1-1.064,1.587l-1.139.383-.84.28L-33.654,26.13l7.691-23.081.289-.849L-25.3,1.07A1.565,1.565,0,0,1-23.714.006,17.451,17.451,0,0,1-7.521,16.19Z" transform="translate(33.654 -0.002)" fill="#dd272d"/>
+    <g id="Group_20282" data-name="Group 20282" transform="translate(7.691 2.197)">
+      <path id="Path_2468" data-name="Path 2468" d="M-9.174,18.316l-.84.28a.452.452,0,0,1-.093-.271A15.051,15.051,0,0,0-25.143,3.289a.445.445,0,0,1-.271-.084l.289-.849A15.987,15.987,0,0,1-9.174,18.316Z" transform="translate(25.414 -2.356)" fill="#f7babf"/>
+    </g>
+    <circle id="Ellipse_85" data-name="Ellipse 85" cx="2.416" cy="2.416" r="2.416" transform="translate(8.898 7.427)" fill="#f7babf"/>
+    <circle id="Ellipse_86" data-name="Ellipse 86" cx="2.416" cy="2.416" r="2.416" transform="translate(15.272 12.444)" fill="#f7babf"/>
+    <circle id="Ellipse_87" data-name="Ellipse 87" cx="2.416" cy="2.416" r="2.416" transform="translate(5.864 15.751)" fill="#f7babf"/>
+  </g>
+</svg>

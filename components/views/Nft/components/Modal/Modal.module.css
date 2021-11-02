@@ -1,0 +1,176 @@
+/* Modal */
+ .master_popup {
+   display: none;
+   width: 904px;
+   height: 784px;
+   background: transparent linear-gradient(132deg, #fc8f30 0%, #e2604a 40%, #bf074c 100%) 0% 0% no-repeat padding-box;
+   border-radius: 28px;
+   backdrop-filter: blur(42px);
+   -webkit-backdrop-filter: blur(42px);
+   padding: 13px;
+}
+ @media (max-width: 991px) {
+   .master_popup {
+         width: 800px !important;
+    left: calc(50% - 390px) !important;
+  }
+}
+ @media (max-width: 767px) {
+   .master_popup {
+     width: 500px !important;
+     left: calc(50% - 250px) !important;
+  }
+}
+ @media (max-width: 549px) {
+   .master_popup {
+     width: 400px !important;
+     left: calc(50% - 200px) !important;
+  }
+}
+ @media (max-width: 425px) {
+   .master_popup {
+     width: 370px !important;
+     left: calc(50% - 185px) !important;
+  }
+}
+ @media (max-width: 375px) {
+   .master_popup {
+     width: 300px !important;
+     left: calc(50% - 150px) !important;
+  }
+}
+ .master_popup .white_color {
+   background: #fff 0% 0% no-repeat padding-box;
+   border-radius: 30px;
+   opacity: 1;
+   height: 100%;
+   padding: 28px 39px 28px 34px;
+}
+ @media (max-width: 425px) {
+   .master_popup .white_color {
+     padding: 28px 15px 28px 15px !important;
+  }
+}
+ .master_popup .white_color h2 {
+   font: normal normal 300 32px/37px Ubuntu;
+   letter-spacing: 0px;
+   color: #a1a1a1;
+}
+ .master_popup .white_color h2 b {
+   font: normal normal bold 32px/37px Ubuntu;
+   letter-spacing: 0px;
+   color: #2e2e2e;
+}
+ .master_popup .white_color span.closeicon {
+   position: absolute;
+   top: 43px;
+   right: 41px;
+   cursor: pointer;
+}
+ .master_popup .white_color span.closeicon circle, .master_popup .white_color span.closeicon line {
+   transition: all 0.2s ease-in-out;
+}
+ .master_popup .white_color span.closeicon:hover svg circle {
+   fill: #dd272d;
+}
+ .master_popup .white_color span.closeicon:hover svg line {
+   stroke: #fff;
+}
+ .master_popup .white_color .table_format {
+   margin-top: 40px;
+   height: calc(100% - 100px);
+   overflow-y: scroll;
+}
+ .master_popup .white_color .table_format .master_heading {
+   margin-bottom: 14px;
+   padding: 4px 7px;
+   margin-left: 0;
+   width: calc(100% - 47px);
+   padding-bottom: 17px;
+   border-bottom: 1px solid #e0e0e0;
+}
+ .master_popup .white_color .table_format .number {
+   width: 50px;
+}
+ .master_popup .white_color .table_format .person {
+   max-width: 244px;
+   width: 100%;
+   margin-left: 31px;
+   font: normal normal normal 20px/24px Ubuntu;
+   letter-spacing: 0px;
+   color: #dd272d;
+   opacity: 1;
+   align-items: center;
+    display: flex;
+}
+ .master_popup .white_color .table_format .person img {
+   margin-right: 8px;
+}
+ .master_popup .white_color .table_format .inner_content {
+   background: #fafafa 0% 0% no-repeat padding-box;
+   border: 1px solid #c7c7c7;
+   border-radius: 11px;
+   opacity: 1;
+   margin-left: 1px;
+   margin-right: 46px;
+   padding: 9px 6px;
+   margin-bottom: 7px;
+}
+ .master_popup .white_color .table_format .inner_content .number {
+   letter-spacing: 0px;
+   color: #2e2e2e;
+   opacity: 1;
+   font-size: 20px !important;
+   line-height: 40px;
+   font-weight: 500;
+   font-family: Ubuntu;
+   text-align: center;
+}
+ .master_popup .white_color .table_format .inner_content .person span {
+   color: #2e2e2e;
+   line-height: 41px;
+}
+ .master_popup .white_color .table_format .inner_content .button_red {
+   clip-path: polygon(6% 0%, 100% 0%, 95% 100%, 0% 100%);
+   background: #dd272d 0% 0% no-repeat padding-box;
+   width: 135px;
+   height: 32px;
+   text-align: center;
+   margin-top: 5px;
+   cursor: pointer;
+   transition: all 0.5s ease-in-out;
+}
+ .master_popup .white_color .table_format .inner_content .button_red:hover {
+   clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 10% 100%);
+}
+ .master_popup .white_color .table_format .inner_content .button_red a {
+   width: 100%;
+   height: 100%;
+   font: normal normal 500 18px/32px Ubuntu;
+   letter-spacing: 0px;
+   color: #fff !important;
+   opacity: 1;
+   text-decoration: none;
+}
+ .table_format::-webkit-scrollbar {
+   width: 7px;
+   background-color: #ededed;
+}
+ .table_format::-webkit-scrollbar-thumb {
+   border-radius: 7px;
+   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+   background-color: #dd272d;
+}
+ .table_format::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+   border-radius: 7px;
+   background-color: #ededed;
+}
+ body.popupopen .master_popup {
+   display: block;
+   position: fixed;
+   z-index: 9999;
+   left: calc(50% - 452px);
+   top: calc(50% - 392px);
+}
+ 

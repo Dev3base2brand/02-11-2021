@@ -1,0 +1,185 @@
+.sidebar{
+    width: 311px;
+    position:absolute;
+    left: 0;
+    top:0;
+    border: 1px solid #EDEDED;  
+    background-color: #fff;
+    border-top: none;
+    display: block;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 7px;
+    background-color: #EDEDED;
+}
+.sidebar::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #A1A1A1;
+}
+.sidebar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    background-color: #EDEDED;
+}
+
+.sidebar_toggle{
+    width: 31px;
+height: 31px;
+border: 1px solid #EDEDED;
+border-radius: 21px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #fff;
+position: absolute;
+top: 15px;
+right: -16px;
+cursor: pointer;
+}
+.sidebar .top_text{
+color: #A1A1A1;
+font-size: 14px;
+text-align: left;
+padding: 20px 30px;
+border-bottom: 1px solid #EDEDED;
+}
+
+.sidebar .top_text h3{
+    font: normal normal medium 22px/26px Ubuntu !important;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 0;
+}
+.filterbox{
+    color: #000;
+    border-bottom: 1px solid #EDEDED;  
+    padding: 20px 30px;
+}
+.filterbox h5{
+color: #2E2E2E;
+font-size: 16px;
+opacity: 0.5;
+margin: 0 0 15px 0;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hidefilterbtn, .sidebar_togglemb{
+    display: none;
+}
+
+
+@media screen and (max-width: 1364px) {
+    .sidebar{
+        top:62px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .sidebar{
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 9;
+        top: auto;
+        bottom: -2px;
+        height: 100%;
+        border-radius: 30px 30px 0 0;
+        max-height: 80%;
+        overflow-y: auto;
+    }
+    .sidebar_toggle{
+        display: none;
+    }
+    .sidebar .top_text{
+        display: flex;
+        justify-content:space-between;
+        padding: 20px 30px;
+        border-bottom: 1px solid #EDEDED;  
+    }
+    .sidebar_togglemb{
+        cursor: pointer;
+        color:#1492E6;
+        display: block;
+    }
+}
+
+.selectbox{
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    font: normal normal normal 16px/18px Ubuntu;
+    letter-spacing: 0px;
+    color: #A1A1A1;
+    opacity: 1;
+    width: 100%;
+    height: 45px;
+    padding: 0 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('/../../../images/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    outline: none;
+    margin-bottom: 19px;
+}
+
+.to_price{
+    padding: 0 13px;
+    font: normal normal bold 16px/18px Ubuntu;
+    letter-spacing: 0px;
+    color: #2E2E2E;
+}
+
+.input_value{
+    width: 103px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    height: 45px;
+    padding: 0 8px;
+    font: normal normal normal 16px/18px Ubuntu;
+    letter-spacing: 0px;
+    color: #A1A1A1;
+    opacity: 1;
+    margin-bottom: 19px;
+}
+
+.apply{
+    background-color: transparent;
+    border-radius: 0;
+    width: 113px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 14px;
+    color: #333;
+    text-transform: capitalize;
+    font-weight: bold;
+    position: relative;
+    margin: 0 0;
+    overflow: visible;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.apply_li{
+    background: linear-gradient(111deg, #FC8F30 0%, #E2604A 40%, #BF074C 100%) 0% 0% no-repeat padding-box;
+    width: 118px;
+    height: 31px;
+    transform: skewX( -15deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

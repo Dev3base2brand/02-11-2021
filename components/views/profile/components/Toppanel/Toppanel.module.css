@@ -1,0 +1,50 @@
+.Toppanel{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 46px;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+.Toppanel > form{
+    max-width: 440px !important;
+}
+
+.Toppanel > form input{
+    height: 56px !important; 
+    font: normal normal normal 18px/21px Ubuntu;
+    letter-spacing: 0px;
+    color: #2E2E2E;
+    padding-left: 40px !important;
+}
+
+
+.Toppanel > form svg{
+    top: 0px !important;
+    height: 56px !important;
+}
+.nav_form{
+    margin-left: 0 !important;
+}
+
+.items_all{
+    border: 1px solid #E0E0E0;
+    border-radius: 11px;
+    width: 140px;
+    height: 56px;
+    font: normal normal normal 18px/21px Ubuntu;
+    letter-spacing: 0px;
+    color: #2E2E2E;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('/../../../images/black-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    background-size: 15px;
+    outline: none;
+    padding-left: 23px;
+}
+
+.items_all:first-child{
+    margin-right:10px;
+}
